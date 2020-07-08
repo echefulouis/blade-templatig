@@ -11,8 +11,8 @@
 <link rel="stylesheet" type="text/css" href="{{asset('plugins/OwlCarousel2-2.2.1/owl.carousel.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('plugins/OwlCarousel2-2.2.1/owl.theme.default.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('plugins/OwlCarousel2-2.2.1/animate.css')}}">
-<link rel="stylesheet" type="text/css" href="{{asset('styles/main_styles.css')}}">
-<link rel="stylesheet" type="text/css" href="{{asset('styles/responsive.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('styles/about.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('styles/about_responsive.css')}}">
 </head>
 <body>
 
@@ -65,7 +65,7 @@
 
 	<div class="menu">
 		<div class="menu_header d-flex flex-row align-items-center justify-content-start">
-			<div class="menu_logo"><a href="index.html">Travello</a></div>
+		<div class="menu_logo"><a href="{{asset('index')}}">Travello</a></div>
 			<div class="menu_close_container ml-auto"><div class="menu_close"><div></div><div></div></div></div>
 		</div>
 		<div class="menu_content">
@@ -93,7 +93,7 @@
 	<!-- Home -->
 
 	<div class="home">
-		<div class="background_image" style="background-image:url(images/about.jpg)"></div>
+		<div class="background_image" style="background-image:url({{asset('images/about.jpg')}})"></div>
 	</div>
 
 	<!-- Search -->
@@ -142,7 +142,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<div class="about_image"><img src="images/about_1.jpg" alt=""></div>
+				<div class="about_image"><img src="{{asset('images/about_1.jpg')}}" alt=""></div>
 				</div>
 			</div>
 		</div>
@@ -157,7 +157,7 @@
 				<!-- Milestone -->
 				<div class="col-lg-3 milestone_col">
 					<div class="milestone text-center">
-						<div class="milestone_icon"><img src="images/mountain.svg" alt=""></div>
+					<div class="milestone_icon"><img src="{{asset('images/mountain.svg')}}" alt=""></div>
 						<div class="milestone_counter" data-end-value="17">0</div>
 						<div class="milestone_text">Online Courses</div>
 					</div>
@@ -175,7 +175,7 @@
 				<!-- Milestone -->
 				<div class="col-lg-3 milestone_col">
 					<div class="milestone text-center">
-						<div class="milestone_icon"><img src="images/camera.svg" alt=""></div>
+					<div class="milestone_icon"><img src="{{asset('images/camera.svg')}}" alt=""></div>
 						<div class="milestone_counter" data-end-value="11923">0</div>
 						<div class="milestone_text">Teachers</div>
 					</div>
@@ -184,7 +184,7 @@
 				<!-- Milestone -->
 				<div class="col-lg-3 milestone_col">
 					<div class="milestone text-center">
-						<div class="milestone_icon"><img src="images/boat.svg" alt=""></div>
+					<div class="milestone_icon"><img src="{{asset('images/boat.svg')}}" alt=""></div>
 						<div class="milestone_counter" data-end-value="15">0</div>
 						<div class="milestone_text">Countries</div>
 					</div>
@@ -197,7 +197,7 @@
 	<!-- Why Choose Us -->
 
 	<div class="why">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/why.jpg" data-speed="0.8"></div>
+	<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{{asset('images/why.jpg')}}" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
@@ -211,9 +211,9 @@
 				<div class="col-lg-4 why_col">
 					<div class="why_item">
 						<div class="why_image">
-							<img src="images/why_1.jpg" alt="">
+						<img src="{{asset('images/why_1.jpg')}}" alt="">
 							<div class="why_icon d-flex flex-column align-items-center justify-content-center">
-								<img src="images/why_1.svg" alt="">
+							<img src="{{asset('images/why_1.svg')}}" alt="">
 							</div>
 						</div>
 						<div class="why_content text-center">
@@ -229,9 +229,9 @@
 				<div class="col-lg-4 why_col">
 					<div class="why_item">
 						<div class="why_image">
-							<img src="images/why_2.jpg" alt="">
+						<img src="{{asset('images/why_2.jpg')}}" alt="">
 							<div class="why_icon d-flex flex-column align-items-center justify-content-center">
-								<img src="images/why_2.svg" alt="">
+							<img src="{{asset('images/why_2.svg')}}" alt="">
 							</div>
 						</div>
 						<div class="why_content text-center">
@@ -247,9 +247,9 @@
 				<div class="col-lg-4 why_col">
 					<div class="why_item">
 						<div class="why_image">
-							<img src="images/why_3.jpg" alt="">
+						<img src="{{asset('images/why_3.jpg')}}" alt="">
 							<div class="why_icon d-flex flex-column align-items-center justify-content-center">
-								<img src="images/why_3.svg" alt="">
+							<img src="{{asset('images/why_3.svg')}}" alt="">
 							</div>
 						</div>
 						<div class="why_content text-center">
@@ -280,7 +280,7 @@
 				<!-- Team Item -->
 				<div class="col-xl-3 col-md-6 team_col">
 					<div class="team_item d-flex flex-column align-items-center justify-content-start text-center">
-						<div class="team_image"><img src="images/team_1.jpg" alt=""></div>
+					<div class="team_image"><img src="{{asset('images/team_1.jpg')}}" alt=""></div>
 						<div class="team_content">
 							<div class="team_title"><a href="#">Margaret Smith</a></div>
 							<div class="team_text">
@@ -293,7 +293,7 @@
 				<!-- Team Item -->
 				<div class="col-xl-3 col-md-6 team_col">
 					<div class="team_item d-flex flex-column align-items-center justify-content-start text-center">
-						<div class="team_image"><img src="images/team_2.jpg" alt=""></div>
+					<div class="team_image"><img src="{{asset('images/team_2.jpg')}}" alt=""></div>
 						<div class="team_content">
 							<div class="team_title"><a href="#">James Williams</a></div>
 							<div class="team_text">
@@ -306,7 +306,7 @@
 				<!-- Team Item -->
 				<div class="col-xl-3 col-md-6 team_col">
 					<div class="team_item d-flex flex-column align-items-center justify-content-start text-center">
-						<div class="team_image"><img src="images/team_3.jpg" alt=""></div>
+						<div class="team_image"><img src={{asset('images/team_2.jpg')}} alt=""></div>
 						<div class="team_content">
 							<div class="team_title"><a href="#">Michael James</a></div>
 							<div class="team_text">
@@ -319,7 +319,7 @@
 				<!-- Team Item -->
 				<div class="col-xl-3 col-md-6 team_col">
 					<div class="team_item d-flex flex-column align-items-center justify-content-start text-center">
-						<div class="team_image"><img src="images/team_4.jpg" alt=""></div>
+					<div class="team_image"><img src="{{asset('images/team_4.jpg')}}" alt=""></div>
 						<div class="team_content">
 							<div class="team_title"><a href="#">Noah Smith</a></div>
 							<div class="team_text">
@@ -336,7 +336,7 @@
 	<!-- Footer -->
 
 	<footer class="footer">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/footer_1.jpg" data-speed="0.8"></div>
+	<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{{asset('images/footer_1.jpg')}}" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -364,7 +364,7 @@
 						<!-- Footer Contact Item -->
 						<div class="col-xl-4 footer_contact_col">
 							<div class="footer_contact_item d-flex flex-column align-items-center justify-content-start text-center">
-								<div class="footer_contact_icon"><img src="images/sign.svg" alt=""></div>
+							<div class="footer_contact_icon"><img src="{{asset('images/sign.svg')}}" alt=""></div>
 								<div class="footer_contact_title">give us a call</div>
 								<div class="footer_contact_list">
 									<ul>
@@ -378,7 +378,7 @@
 						<!-- Footer Contact Item -->
 						<div class="col-xl-4 footer_contact_col">
 							<div class="footer_contact_item d-flex flex-column align-items-center justify-content-start text-center">
-								<div class="footer_contact_icon"><img src="images/trekking.svg" alt=""></div>
+							<div class="footer_contact_icon"><img src="{{asset('images/trekking.svg')}}" alt=""></div>
 								<div class="footer_contact_title">come & drop by</div>
 								<div class="footer_contact_list">
 									<ul style="max-width:190px">
@@ -391,7 +391,7 @@
 						<!-- Footer Contact Item -->
 						<div class="col-xl-4 footer_contact_col">
 							<div class="footer_contact_item d-flex flex-column align-items-center justify-content-start text-center">
-								<div class="footer_contact_icon"><img src="images/around.svg" alt=""></div>
+							<div class="footer_contact_icon"><img src="{{asset('images/around.svg')}}" alt=""></div>
 								<div class="footer_contact_title">send us a message</div>
 								<div class="footer_contact_list">
 									<ul>
@@ -413,17 +413,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="js/about.js"></script>
+<script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
+<script src="{{asset('styles/bootstrap4/popper.js')}}"></script>
+<script src="{{asset('styles/bootstrap4/bootstrap.min.js')}}"></script>
+<script src="{{asset('plugins/greensock/TweenMax.min.js')}}"></script>
+<script src="{{asset('plugins/greensock/TimelineMax.min.js')}}"></script>
+<script src="{{asset('plugins/scrollmagic/ScrollMagic.min.js')}}"></script>
+<script src="{{asset('plugins/greensock/animation.gsap.min.js')}}"></script>
+<script src="{{asset('plugins/greensock/ScrollToPlugin.min.js')}}"></script>
+<script src="{{asset('plugins/OwlCarousel2-2.2.1/owl.carousel.js')}}"></script>
+<script src="{{asset('plugins/easing/easing.js')}}"></script>
+<script src="{{asset('plugins/parallax-js-master/parallax.min.js')}}"></script>
+<script src="{{asset('js/about.js')}}"></script>
 </body>
 </html>
